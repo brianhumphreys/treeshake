@@ -12,9 +12,6 @@ module.exports = {
               {
                 test: /\.(js)$/,
                 include: "/node_modules/user-library-rollup-lit",
-                // use: {
-                //   loader: "babel-loader",
-                // },
                 sideEffects: true,
               },
             ],

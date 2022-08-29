@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 // import { funcA } from 'user-library-rollup';
 // import { funcA } from 'user-library-webpack';
-import {Card} from 'user-library-rollup-lit';
+import {Card, DetailedCard} from 'user-library-rollup-lit';
 // import {funcA} from 'user-library-rollup-lit';
 
 

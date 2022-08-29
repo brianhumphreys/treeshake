@@ -1,5 +1,5 @@
 {
-  "name": "user-react",
+  "name": "user-consumer-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
