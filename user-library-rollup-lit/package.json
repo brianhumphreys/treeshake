@@ -6,8 +6,8 @@
   "main": "build/cjs/cjs.js",
   "module": "build/esm/react.js",
   "scripts": {
-    "clean": "rimraf build consumer/build",
-    "build": "rollup -c rollup.config.js",
+    "clean": "rimraf build",
+    "build": "npm run clean && rollup -c rollup.config.js",
     "test": "./test.sh"
   },
   "repository": "https://github.com/Redd-Developer/rollup-tree-shaking",
