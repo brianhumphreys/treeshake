@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "target": "es6",                          
+      "module": "es6",
+      "lib": ["es6"],
+      "moduleResolution": "node", // tells ts which algo to use for resolve module locations in node_modules
+      "experimentalDecorators": true, // for lit annotations
+      "esModuleInterop": true, // to be able to import default React
+    },
+    "include": ["./src/**/*.ts"]
+  }
