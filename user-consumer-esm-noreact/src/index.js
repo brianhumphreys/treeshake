@@ -1,5 +1,5 @@
 import { css, html, LitElement } from 'lit';
-import {Card} from 'user-library-rollup-lit';
+import {Card} from 'web-components-test';
 // import { customElement } from 'lit/decorators';
 
 // @customElement('voith-card')

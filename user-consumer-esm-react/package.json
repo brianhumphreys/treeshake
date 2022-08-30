@@ -10,8 +10,8 @@
     "react-dom": "^18.2.0",
     "react-scripts": "^4.0.3",
     "user-library-rollup": "file:../user-library-rollup",
-    "user-library-rollup-lit": "file:../user-library-rollup-lit",
     "user-library-webpack": "file:../user-library-webpack",
+    "web-components-test": "file:../web-components-test",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

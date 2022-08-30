@@ -8,12 +8,12 @@ import typescript from '@rollup/plugin-typescript';
 export default [
   {
     input: [
-      'src/react.ts',
+      'src/index.ts',
       'src/react/ReactCard.ts',
       'src/react/ReactDetailedCard.ts'
     ],
     output: {
-      dir: 'build/react',
+      dir: 'dist/react',
       format: 'esm',
     },
     external: ['react'],
@@ -29,7 +29,7 @@ export default [
       'src/components/DetailedCard.ts'
     ],
     output: {
-      dir: 'build/lit',
+      dir: 'dist/lit',
       format: 'esm',
     },
     plugins: [typescript(), resolve()],

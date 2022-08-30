@@ -1,11 +1,11 @@
 {
-  "name": "user-library-rollup-lit",
+  "name": "web-components-test",
   "version": "0.0.0",
   "sideEffects": false,
   "description": "Building a tree-shakable library with RollupJS (redd.one)",
   "exports": {
-    ".": "./build/lit/lit.js",
-    "./dist/react": "./build/react/react.js"
+    ".": "./dist/lit/lit.js",
+    "./dist/react": "./dist/react/index.js"
   },
   "scripts": {
     "clean": "rimraf build",
