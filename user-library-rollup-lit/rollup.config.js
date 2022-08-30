@@ -42,8 +42,9 @@ export default [
       'src/lit.ts',
     ],
     output: {
-      dir: 'build/cjs',
+      file: 'build/cjs/cjs.js',
       format: 'cjs',
+      esModule: false,
     },
     plugins: [typescript(), resolve()],
   },

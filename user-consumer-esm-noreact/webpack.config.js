@@ -5,11 +5,12 @@ module.exports = {
       './src/index.css'
     ],
     output: {
-      path: __dirname,
+      path: __dirname + "/public",
       publicPath: '/',
       filename: 'bundle.js',
     },
     target: 'node',
+    mode: "production",
     module: {
       rules: [
         {

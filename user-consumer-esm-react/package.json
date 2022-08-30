@@ -1,5 +1,5 @@
 {
-  "name": "user-consumer-react",
+  "name": "user-consumer-esm-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

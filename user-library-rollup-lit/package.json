@@ -4,7 +4,12 @@
   "sideEffects": false,
   "description": "Building a tree-shakable library with RollupJS (redd.one)",
   "main": "build/cjs/cjs.js",
-  "module": "build/esm/react.js",
+  "module": "build/react/react.js",
+  "exports": {
+    ".": "build/react/react.js",
+    "./lit": "build/lit/lit.js",
+    "./common": "build/cjs/cjs.js"
+  },
   "scripts": {
     "clean": "rimraf build",
     "build": "npm run clean && rollup -c rollup.config.js",
